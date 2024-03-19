@@ -1,0 +1,1552 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #F7F7F7;
+}
+
+img {
+  width: 100%;
+}
+
+ul,
+ol,
+li,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h5,
+p,
+span {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+/* FONTS STARTS */
+@font-face {
+  font-family: 'Segoe UI';
+  src: url('../fonts/SegoeUI-Bold.woff2') format('woff2'),
+    url('../fonts/SegoeUI-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Segoe UI';
+  src: url('../fonts/SegoeUI-Semibold.woff2') format('woff2'),
+    url('../fonts/SegoeUI-Semibold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Segoe UI';
+  src: url('../fonts/SegoeUI-Regular.woff2') format('woff2'),
+      url('../fonts/SegoeUI-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Segoe UI';
+  src: url('../fonts/SegoeUI-Light.woff2') format('woff2'),
+    url('../fonts/SegoeUI-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+/* header css */
+
+header {
+  background: transparent;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  padding: 22px 0px;
+
+}
+
+nav.navbar.navbar-expand-lg {
+  padding: 0;
+}
+
+.header-logo a {
+  display: inline-block;
+}
+
+ul#menu {
+  max-width: 562px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+header .navbar-nav li a {
+  font-family: 'Segoe UI';
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  display: inline-block;
+  transition: 0.3s ease-in-out;
+}
+
+header .navbar-nav li a:hover {
+  color: #df0202;
+}
+
+/* banner css */
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 8.25rem;
+  left: 6%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.carousel-caption h1 {
+  font-family: 'Segoe UI';
+  font-weight: 600;
+  font-style: normal;
+  color: #000000;
+  font-size: 30px;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: justify;
+  margin-bottom: 15px;
+}
+
+.carousel-caption h2 {
+  font-family: 'Segoe UI';
+  font-weight: normal;
+  font-style: normal;
+  color: #ff0000;
+  font-size: 55px;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: justify;
+  margin-bottom: 15px;
+}
+
+.carousel-caption p {
+  font-family: 'Segoe UI';
+  font-weight: 600;
+  font-style: normal;
+  color: #000000;
+  font-size: 16px;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: justify;
+}
+
+/* services css */
+.services {
+  padding: 50px 0px 65px;
+}
+
+.services-card {
+  max-width: 307px;
+  width: 100%;
+  min-height: 510px;
+  background: #FFFFFF;
+}
+
+.services-body {
+  padding: 18px 14px 7px;
+  text-align: center;
+
+}
+
+.services-body h2 {
+  font-family: 'Segoe UI';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 26px;
+  color: #010101;
+  text-transform: uppercase;
+  max-width: 228px;
+  width: 100%;
+  margin: 0 auto;
+  min-height: 63px;
+  margin-bottom: 24px;
+}
+
+.services-body p {
+  font-family: 'Segoe UI';
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.25px;
+  color: #0c0c0c;
+  margin-bottom: 19px;
+}
+
+.services-body ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: #df0202;
+  padding: 16px 36px;
+  transition: 0.3s ease-in-out;
+}
+
+.services-body ul:hover{
+  background: #010042;
+}
+
+.services-body ul li {
+  position: relative;
+}
+
+.sign-up::after {
+  content: " ";
+  position: absolute;
+  width: 2px;
+  height: 24px;
+  right: -42px;
+  background: #FFFFFF;
+}
+
+.services-body ul li a {
+  font-family: 'Segoe UI';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  color: #ffffff;
+  text-transform: uppercase;
+  transition: 0.3s ease-in-out;
+}
+
+.services-body ul li a:hover{
+  color: #f0cbcb;
+}
+/* register-form css */
+.register-form {
+  padding-bottom: 68px;
+}
+
+.row.register-wrap {
+  background-color: #fff;
+  padding: 66px 0px;
+}
+
+
+.card-block {
+  width: 100%;
+  max-width: 385px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.col-xl-6:first-child {
+  border-right: 3px solid #df0202;
+}
+
+.login-form {
+  max-width: 390px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.card-head {
+  font-family: 'Segoe UI';
+  font-weight: 600;
+  font-style: normal;
+  font-size: 27px;
+  text-align: center;
+  color: #df0202;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+}
+
+.form-control {
+  margin-bottom: 15px;
+  border-radius: 0%;
+  padding: 0.75rem 0.6rem;
+  border: 1px solid #767676;
+}
+
+.forgot h2 {
+  font-family: 'Segoe UI';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  text-align: end;
+  color: #000000;
+  text-transform: uppercase;
+  margin-bottom: 29px;
+  min-height: 17px;
+}
+
+.login-form button {
+  padding: 14px 48px;
+  background: #df0202;
+  border-radius: 0%;
+  font-family: 'Segoe UI';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  color: #ffffff;
+  text-transform: uppercase;
+  transition: 0.3s ease-in-out;
+}
+
+.login-form button:hover {
+  background: #010042;
+  color: #eedbdb;
+}
+
+.Signup {
+  position: relative;
+}
+
+
+/* footer */
+footer {
+  background: #FFFFFF;
+  padding: 75px 0px 65px;
+}
+
+.map-intrect {
+  margin-bottom: 10px;
+}
+
+.mymap {
+  filter: grayscale(100%);
+}
+
+.map-intrect h2 {
+  font-family: 'Segoe UI';
+  font-weight: bold;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 29px;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  color: #df0202;
+  text-decoration: underline;
+  margin-bottom: 3px;
+}
+
+.map-intrect ul li a {
+  font-family: 'Segoe UI';
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 29px;
+  letter-spacing: 0.25px;
+  color: #060606;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+  transition: 0.3s ease-in-out;
+}
+
+.map-intrect ul li a:hover{
+  color: #df0202;
+}
+
+.states {
+  text-align: end;
+  margin-bottom: 0px;
+}
+
+.copy-wite{
+  background: #010042;
+  padding: 14px 0px;
+}
+.copy-wite p{
+  font-family: 'Segoe UI';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* All media screen  */
+
+/* Extra large devices (large laptops and desktops, 1800px and up) */
+@media only screen and (max-width: 1800px) {}
+
+/* Extra large devices (large laptops and desktops, 1680px and up) */
+@media only screen and (max-width: 1680px) {}
+
+/* Extra large devices (large laptops and desktops, 1600px and up) */
+
+@media only screen and (max-width: 1600px) {
+  .header-logo {
+    max-width: 245px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1500px and up) */
+
+@media only screen and (max-width: 1500px) {
+  .header-logo {
+    max-width: 242px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .services-body ul {
+    padding: 16px 38px;
+  }
+
+  .sign-up::after {
+    right: -44px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1440px and up) */
+
+@media only screen and (max-width: 1440px) {
+  .header-logo {
+    max-width: 240px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .carousel-caption h1 {
+    font-size: 27px;
+    margin-bottom: 14px;
+  }
+
+  .carousel-caption h2 {
+    font-size: 53px;
+  }
+
+  .services {
+    padding: 47px 0px 55px;
+  }
+
+  .register-form {
+    padding-bottom: 58px;
+  }
+
+
+  .Signup::before {
+    left: -80px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1366px and up) */
+
+@media only screen and (max-width: 1366px) {
+  header {
+    padding: 12px 0px;
+  }
+
+  .header-logo {
+    max-width: 233px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  header {
+    background: transparent;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    padding: 12px 0px;
+  }
+
+  .carousel-caption h1 {
+    font-size: 25px;
+    margin-bottom: 12px;
+  }
+
+  .carousel-caption h2 {
+    font-size: 51px;
+    margin-bottom: 13px;
+  }
+
+  .services {
+    padding: 45px 0px 49px;
+  }
+
+  .services-body ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: #df0202;
+    padding: 14px 24px;
+  }
+
+  .services-body ul li a {
+    font-size: 15px;
+  }
+
+  .services-body h2 {
+    font-size: 23px;
+    max-width: 223px;
+    margin-bottom: 23px;
+  }
+
+  .register-form {
+    padding-bottom: 50px;
+  }
+
+  .row.register-wrap {
+    background-color: #fff;
+    padding: 63px 0px;
+  }
+
+
+  .card-head {
+    font-size: 24px;
+    margin-bottom: 34px;
+  }
+
+  .forgot h2 {
+    font-size: 19px;
+    margin-bottom: 34px;
+  }
+
+  .login-form button {
+    padding: 13px 45px;
+    font-size: 15px;
+  }
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1280px and up) */
+
+@media only screen and (max-width: 1280px) {
+  ul#menu {
+    max-width: 541px;
+  }
+
+  header .navbar-nav li a {
+    font-size: 17px;
+  }
+
+  .header-logo {
+    max-width: 230px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .carousel-caption h1 {
+    font-size: 22px;
+    margin-bottom: 7px;
+  }
+
+  .carousel-caption h1 {
+    font-size: 22px;
+    margin-bottom: 7px;
+  }
+
+  .carousel-caption p {
+    font-size: 15px;
+  }
+
+  .carousel-caption {
+    bottom: 5.25rem;
+    left: 10%;
+  }
+
+  .services-card {
+    min-height: 500px;
+  }
+
+  .services {
+    padding: 36px 0px 42px;
+  }
+
+  .services-body h2 {
+    font-size: 21px;
+    max-width: 198px;
+    margin-bottom: 22px;
+    min-height: 55px;
+  }
+
+  .services-body p {
+    font-size: 15px;
+    line-height: 23px;
+    margin-bottom: 18px;
+  }
+
+  .services-body ul li a {
+    font-size: 14px;
+  }
+
+  .services-body ul {
+    padding: 12px 22px;
+  }
+
+  .sign-up::after {
+    right: -43px;
+  }
+
+  .register-form {
+    padding-bottom: 42px;
+  }
+
+  footer {
+    background: #FFFFFF;
+    padding: 48px 0px 22px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (max-width: 1200px) {
+  ul#menu {
+    max-width: 538px;
+  }
+
+  .carousel-caption {
+    bottom: 5.25rem;
+    left: 4%;
+  }
+
+  .carousel-caption h1 {
+    font-size: 21px;
+    margin-bottom: 6px;
+  }
+
+  .carousel-caption h2 {
+    font-size: 44px;
+    margin-bottom: 8px;
+  }
+
+  .services-body ul {
+    padding: 12px 30px;
+  }
+
+  .sign-up::after {
+    right: -39px;
+  }
+
+  .row.register-wrap {
+    background-color: #fff;
+    padding: 61px 0px;
+  }
+
+  .card-head {
+    font-size: 23px;
+    margin-bottom: 33px;
+  }
+
+  .forgot h2 {
+    font-size: 18px;
+    margin-bottom: 32px;
+  }
+
+  .login-form {
+    max-width: 375px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .login-form button {
+    padding: 11px 40px;
+    font-size: 14px;
+  }
+
+  .Signup::before {
+    left: -80px;
+    height: 285px;
+  }
+
+  .map-intrect ul li a {
+    font-size: 15px;
+    line-height: 29px;
+    margin-bottom: 0px;
+  }
+
+  footer {
+    background: #FFFFFF;
+    padding: 30px 0px 16px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1199px and up) */
+
+@media only screen and (max-width: 1199px) {
+  ul#menu {
+    max-width: 510px;
+  }
+
+  .header-logo {
+    max-width: 211px;
+  }
+
+  .carousel-caption {
+    bottom: 5.25rem;
+    left: 11%;
+  }
+
+  .services {
+    padding: 33px 0px 0px;
+  }
+
+  .servicess {
+    justify-content: center;
+  }
+
+  .services-card {
+    max-width: 340px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+  }
+
+  .services-body ul {
+    padding: 12px 38px;
+  }
+
+  .sign-up::after {
+    right: -49px;
+  }
+
+  .row.register-wrap {
+    padding: 50px 0px;
+  }
+
+
+  .login-form {
+    max-width: 352px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .form-control {
+    padding: 0.65rem 0.55rem;
+  }
+
+  .card-head {
+    font-size: 21px;
+    margin-bottom: 29px;
+  }
+
+  .forgot h2 {
+    font-size: 16px;
+    min-height: 17px;
+    margin-bottom: 32px;
+  }
+
+  .login-form button {
+    padding: 8px 37px;
+    font-size: 13px;
+  }
+
+  .Signup::before {
+    left: -61px;
+    height: 253px;
+  }
+
+  .map-intrect h2 {
+    font-size: 15px;
+    line-height: 29px;
+    margin-bottom: 3px;
+  }
+
+  .map-intrect ul li a {
+    font-size: 14px;
+    line-height: 28px;
+  }
+}
+
+/* Large devices (laptops/desktops, 1114px and up) */
+
+@media only screen and (max-width: 1114px) {
+  .carousel-caption {
+    bottom: 5.25rem;
+    left: 8%;
+  }
+
+}
+
+/* Large devices (laptops/desktops, 1100px and up) */
+
+@media only screen and (max-width: 1100px) {
+  .services-card {
+    margin-bottom: 29px;
+  }
+
+  .register-form {
+    padding-bottom: 36px;
+  }
+
+  footer {
+    background: #FFFFFF;
+    padding: 26px 0px 14px;
+  }
+}
+
+/* Large devices (laptops/desktops, 1024px and up) */
+
+@media only screen and (max-width: 1024px) {
+
+  ul#menu {
+    max-width: 496px;
+  }
+
+  header .navbar-nav li a {
+    font-size: 16px;
+  }
+
+  .carousel-caption {
+    bottom: 4.25rem;
+    left: 5%;
+  }
+
+  .carousel-caption h1 {
+    font-size: 19px;
+    margin-bottom: 2px;
+  }
+
+  .carousel-caption h2 {
+    font-size: 40px;
+    margin-bottom: 5px;
+  }
+
+  .services {
+    padding: 28px 0px 0px;
+  }
+
+  .services-card {
+    margin-bottom: 25px;
+  }
+
+  .services-body ul {
+    padding: 12px 43px;
+  }
+
+  .sign-up::after {
+    right: -44px;
+  }
+
+  .register-form {
+    padding-bottom: 30px;
+  }
+
+  footer {
+    background: #FFFFFF;
+    padding: 17px 0px 10px;
+  }
+
+  .map-intrect h2 {
+    line-height: 26px;
+    margin-bottom: 2px;
+  }
+
+  .map-intrect ul li a {
+    font-size: 13px;
+    line-height: 26px;
+  }
+  .copy-wite p {
+    font-size: 17px;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (max-width: 992px) {
+  .carousel-caption {
+    bottom: 4.25rem;
+    left: 3%;
+  }
+
+  .Signup::before {
+    width: 2px;
+  }
+
+  .forgot h2 {
+    font-size: 15px;
+    margin-top: 5px;
+    min-height: 16px;
+  }
+
+  .register-form {
+    padding-bottom: 22px;
+  }
+}
+
+/* Large devices (laptops/desktops, 991px and up) */
+
+@media only screen and (max-width: 991px) {
+  .main-menu {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  ul#menu {
+    max-width: 982px;
+    padding: 29px 0px;
+  }
+
+  .header-logo {
+    max-width: 211px;
+    margin-left: 22px;
+  }
+
+  .navbar-toggler {
+    background: #fffefe;
+    margin-right: 20px;
+
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  .navbar-collapse {
+    background: white;
+    text-align: center;
+  }
+
+  .carousel-caption h1 {
+    font-size: 17px;
+    margin-bottom: 1px;
+  }
+
+  .carousel-caption h2 {
+    font-size: 33px;
+    margin-bottom: 3px;
+  }
+
+  .carousel-caption p {
+    font-size: 13px;
+  }
+
+  .services-body ul {
+    padding: 12px 48px;
+  }
+
+  .sign-up::after {
+    right: -60px;
+  }
+
+  .row.register-wrap {
+    padding: 33px 0px;
+  }
+
+  .col-xl-6:first-child {
+    border-right: 2px solid #df0202;
+  }
+
+  .login-form {
+    max-width: 286px;
+  }
+
+  .card-head {
+    font-size: 19px;
+    margin-bottom: 24px;
+  }
+
+  .form-control {
+    padding: 0.55rem 0.5rem;
+  }
+
+  .forgot h2 {
+    font-size: 14px;
+    margin-bottom: 21px;
+  }
+
+  .login-form button {
+    padding: 6px 31px;
+  }
+
+  .Signup::before {
+    left: -37px;
+    height: 224px;
+    width: 1px;
+  }
+
+  .map-intrect h2 {
+    line-height: 22px;
+    margin-bottom: 2px;
+    font-size: 14px;
+  }
+
+  .map-intrect ul li a {
+    font-size: 12px;
+    line-height: 23px;
+  }
+}
+
+/* Medium devices (landscape tablets, 884px and up) */
+
+@media only screen and (max-width: 884px) {
+  .map-intrect h2 {
+    line-height: 20px;
+    margin-bottom: 2px;
+    font-size: 13px;
+  }
+
+  .services-body ul {
+    padding: 12px 28px;
+  }
+
+  .carousel-caption {
+    bottom: 3.25rem;
+    left: 3%;
+  }
+
+  .services-body ul {
+    padding: 12px 50px;
+  }
+
+  .sign-up::after {
+    right: -57px;
+  }
+}
+
+/* Medium devices (landscape tablets, 800px and up) */
+@media only screen and (max-width: 800px) {
+  .services-body ul {
+    padding: 12px 50px;
+  }
+
+  .sign-up::after {
+    right: -57px;
+  }
+  .copy-wite p {
+    font-size: 16px;
+}
+.copy-wite {
+  background: #010042;
+  padding: 13px 0px;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .carousel-caption h1 {
+    font-size: 16px;
+    margin-bottom: 1px;
+  }
+
+  .services {
+    padding: 20px 0px 0px;
+  }
+
+  .services-body h2 {
+    font-size: 20px;
+    max-width: 196px;
+    margin-bottom: 20px;
+    min-height: 55px;
+  }
+
+  .card-head {
+    font-size: 19px;
+    margin-bottom: 22px;
+  }
+
+  .forgot h2 {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .Signup::before {
+    height: 220px;
+  }
+
+  .services-body ul {
+    padding: 12px 51px;
+  }
+
+  .sign-up::after {
+    right: -57px;
+  }
+}
+
+/* Medium devices (landscape tablets, 767px and up) */
+@media only screen and (max-width: 767px) {
+  .header-logo {
+    max-width: 189px;
+    margin-left: 20px;
+  }
+
+  header .navbar-nav li a {
+    font-size: 15px;
+  }
+
+  .carousel-caption {
+    bottom: 3.25rem;
+    left: 11%;
+  }
+
+  .carousel-caption h1 {
+    text-align: center;
+  }
+
+  .carousel-caption h2 {
+    text-align: center;
+  }
+
+  .carousel-caption p {
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .services {
+    padding: 17px 0px 0px;
+  }
+
+  .services-card {
+    margin-bottom: 20px;
+    min-height: 466px;
+  }
+
+  .services-body {
+    padding: 18px 12px 7px;
+  }
+
+  .services-body h2 {
+    font-size: 18px;
+    max-width: 176px;
+    margin-bottom: 12px;
+    min-height: 52px;
+  }
+
+  .services-body p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 16px;
+  }
+
+  .services-body ul li a {
+    font-size: 13px;
+  }
+
+  .services-body ul {
+    padding: 10px 25px;
+  }
+
+  .sign-up::after {
+    right: -42px;
+  }
+
+  .col-xl-6:first-child {
+    border-right: none;
+  }
+
+  .login-form {
+    max-width: 321px;
+    margin-bottom: 25px;
+  }
+
+  .Signup {
+    margin-bottom: 0px;
+  }
+
+
+  .forgot h2 {
+    font-size: 14px;
+  }
+
+  .form-control {
+    padding: 0.45rem 0.4rem;
+  }
+
+  .login-form button {
+    padding: 4px 25px;
+    font-size: 12px;
+  }
+
+  .Signup::before {
+    height: 188px;
+    left: -20px;
+  }
+}
+
+/* Medium devices (landscape tablets, 640px and up) */
+
+@media only screen and (max-width: 640px) {
+  .carousel-caption {
+    bottom: 2.25rem;
+    left: 11%;
+  }
+
+  .carousel-caption h1 {
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+
+  .carousel-caption h2 {
+    font-size: 28px;
+    margin-bottom: 2px;
+  }
+
+  .carousel-caption p {
+    font-size: 12px;
+  }
+
+  .services-body h2 {
+    font-size: 17px;
+    max-width: 216px;
+    margin-bottom: 12px;
+    min-height: 37px;
+  }
+
+  .services-card {
+    margin-bottom: 18px;
+    min-height: 445px;
+  }
+
+  .services-body ul {
+    padding: 9px 28px;
+  }
+
+  .services-body p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 13px;
+  }
+
+  .row.register-wrap {
+    padding: 23px 0px;
+  }
+
+
+  .forgot h2 {
+    font-size: 14px;
+  }
+
+  .form-control {
+    padding: 0.49rem 0.4rem;
+    margin-bottom: 14px;
+  }
+
+  .sign-up::after {
+    right: -38px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 575px and up) */
+
+@media only screen and (max-width: 575px) {
+  .header-logo {
+    max-width: 165px;
+    margin-left: 16px;
+  }
+
+  .navbar-toggler {
+    margin-right: 16px;
+  }
+
+  header {
+    padding: 7px 0px;
+  }
+
+  .services-body ul {
+    padding: 9px 44px;
+  }
+
+  .sign-up::after {
+    right: -64px;
+  }
+
+  .map-intrect {
+    text-align: center;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 540px and up) */
+
+@media only screen and (max-width: 540px) {
+  ul#menu {
+    padding: 27px 0px;
+  }
+
+  .header-logo {
+    max-width: 156px;
+  }
+
+  .services-body ul {
+    padding: 10px 50px;
+  }
+
+  .services {
+    padding: 15px 0px 0px;
+  }
+
+  .services-card {
+    margin-bottom: 13px;
+
+  }
+
+  .sign-up::after {
+    right: -58px;
+  }
+
+  .carousel-indicators {
+    margin-bottom: 0.02rem;
+  }
+
+  .carousel-caption {
+    bottom: 1.25rem;
+    left: 11%;
+  }
+
+  .register {
+    padding: 19px 38px;
+  }
+
+  .card-head {
+    font-size: 19px;
+    margin-bottom: 21px;
+  }
+
+  .Signup::before {
+    height: 174px;
+    left: -61px;
+  }
+
+  .forgot h2 {
+    font-size: 14px;
+  }
+
+  .form-control {
+    padding: 0.4rem 0.4rem;
+    margin-bottom: 14px;
+  }
+
+  .map-intrect {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  footer {
+    padding: 15px 0px 2px;
+  }
+  .copy-wite {
+    background: #010042;
+    padding: 12px 0px;
+}
+}
+
+/*  small Mobile devices( small Mobile devices, 480px and up) */
+
+@media only screen and (max-width: 480px) {
+  header {
+    padding: 5px 0px;
+  }
+
+  .header-logo {
+    max-width: 132px;
+  }
+
+  .carousel-caption h1 {
+    font-size: 14px;
+    margin-bottom: 0px;
+  }
+
+  .carousel-caption h2 {
+    font-size: 24px;
+    margin-bottom: 1px;
+  }
+
+  .carousel-caption {
+    bottom: 0.25rem;
+    left: 11%;
+  }
+
+  .carousel-indicators {
+    margin-bottom: 0rem;
+  }
+
+  .services-body ul {
+    padding: 11px 52px;
+  }
+
+  .sign-up::after {
+    right: -60px;
+  }
+
+  .row.register-wrap {
+    padding: 22px 0px;
+  }
+
+  .forgot h2 {
+    font-size: 14px;
+    margin-bottom: 18px;
+  }
+
+  .login-form button {
+    padding: 3px 21px;
+    font-size: 12px;
+  }
+
+  .Signup::before {
+    height: 162px;
+    left: -47px;
+    bottom: 6px;
+  }
+}
+
+/*  small Mobile devices( small Mobile devices, 428px and up) */
+@media only screen and (max-width: 428px) {
+  ul#menu {
+    padding: 20px 0px;
+  }
+
+  .services {
+    padding: 12px 0px 0px;
+  }
+}
+
+/*  small Mobile devices( small Mobile devices, 425px and up) */
+@media only screen and (max-width: 425px) {}
+
+/*  small Mobile devices( small Mobile devices, 412px and up) */
+
+@media only screen and (max-width: 412px) {
+  header {
+    padding: 3px 0px;
+  }
+
+  .header-logo {
+    max-width: 130px;
+  }
+
+  .carousel-item img {
+    height: 17vh;
+  }
+
+  .register-form {
+    padding-bottom: 16px;
+  }
+  .copy-wite p {
+    font-size: 15px;
+}
+.copy-wite {
+  background: #010042;
+  padding: 10px 0px;
+}
+}
+
+/* extra small Mobile devices( extra small Mobile devices, 393px and up) */
+
+@media only screen and (max-width: 393px) {
+  .services-body ul {
+    padding: 10px 52px;
+  }
+
+  .login-form {
+    max-width: 300px;
+  }
+}
+
+/* extra small Mobile devices( extra small Mobile devices, 390px and up) */
+
+@media only screen and (max-width: 390px) {}
+
+/* extra small Mobile devices( extra small Mobile devices, 375px and up) */
+
+@media only screen and (max-width: 375px) {
+  .carousel-item img {
+    height: 18vh;
+  }
+
+  .services {
+    padding: 10px 0px 0px;
+  }
+
+  .services-body {
+    padding: 18px 15px 7px;
+  }
+
+  .register-form {
+    padding-bottom: 14px;
+  }
+
+  .card-head {
+    font-size: 19px;
+    margin-bottom: 20px;
+  }
+}
+
+/* extra small Mobile devices( extra small Mobile devices, 360px and up) */
+
+@media only screen and (max-width: 360px) {
+  header {
+    padding: 3px 0px;
+  }
+
+  .carousel-item img {
+    height: 19vh;
+  }
+}
+
+/*  extra small Mobile devices( extra small Mobile devices, 320px and up) */
+
+@media only screen and (max-width: 320px) {
+  ul#menu {
+    padding: 67px 0px;
+  }
+
+  .header-logo {
+    margin-left: 12px;
+  }
+
+  .navbar-toggler {
+    margin-right: 12px;
+  }
+
+  .carousel-item img {
+    height: 20vh;
+  }
+
+  .services-body ul {
+    padding: 9px 51px;
+  }
+
+  .sign-up::after {
+    right: -35px;
+  }
+
+  .row.register-wrap {
+    padding: 18px 0px;
+  }
+
+  .services-body h2 {
+    font-size: 17px;
+    max-width: 216px;
+    margin-bottom: 12px;
+    min-height: 32px;
+  }
+
+  .card-head {
+    margin-bottom: 18px;
+  }
+
+  .login-form {
+    max-width: 249px;
+    margin-bottom: 21px;
+  }
+
+  .Signup {
+    margin-bottom: 0px;
+  }
+}
